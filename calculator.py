@@ -13,7 +13,7 @@ def display_banner():
     
     for line in banner.split('\n'):
         print(line)
-        time.sleep(0.1)  # Ajoute un petit délai pour un effet d'animation
+        time.sleep(0.1)
 
 def calculate_square_area():
     side = float(input('Enter a side length: '))
